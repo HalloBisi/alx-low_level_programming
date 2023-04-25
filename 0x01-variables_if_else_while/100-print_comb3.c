@@ -11,9 +11,9 @@ int main(void)
 
 	for (n = 48; n <= 56; n++)
 	{
-		for (m = n+1; m <= 57; m++)
+		for (m = n + 1; m <= 57; m++)
 	{
-		if ( n == m || m > n)
+		if (n == m || m > n)
 		{
 		putchar(n);
 		putchar(m);
