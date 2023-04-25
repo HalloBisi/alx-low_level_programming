@@ -8,34 +8,26 @@ int main(void)
 {
 	int n;
 	int m;
-	int o;
-	int p;
 	
-	for (n = 48; n <= 57; n++)
+	for (n = 0; n <= 98; n++)
 	{
-		for (m = 48; m <= 57; m++)
-		{
-			for (o = 48; o <= 57; o++)
+		for (m = n + 1; m <= 99; m++)
+		{	
+			if (n == m || m > n)	
 			{
-			for (p = o + 1; p <= 57; p++)	
-			{
-			if (n == m || m > n)
-				if (m == o || o > m)
-				      if (o == p || p > o)	
-			putchar(n);
-			putchar(m);
+			putchar(n / 10 + '0');
+			putchar(n % 10 + '0');
 			putchar(' ');
-			putchar(o);
-			putchar(p);
+			putchar(m / 10 + '0');
+			putchar(m % 10 + '0');
 			
-			if (n == 57 && m == 57)
+			if (n == 98 && m == 99)
 				continue;
 			putchar(',');
 			putchar(' ');
 			}
 		}
-	}
 }
 			putchar('\n');
 			return (0);
-			}
+}
