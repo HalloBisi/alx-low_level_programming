@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - entry point
  * Description: 'Print all possible combinations of two two-digit numbers'
  * Return: Always 0 (success)
@@ -8,19 +8,19 @@ int main(void)
 {
 	int n;
 	int m;
-	
+
 	for (n = 0; n <= 98; n++)
 	{
 		for (m = n + 1; m <= 99; m++)
-		{	
-			if (n == m || m > n)	
+		{
+			if (n == m || m > n)
 			{
 			putchar(n / 10 + '0');
 			putchar(n % 10 + '0');
 			putchar(' ');
 			putchar(m / 10 + '0');
 			putchar(m % 10 + '0');
-			
+
 			if (n == 98 && m == 99)
 				continue;
 			putchar(',');
