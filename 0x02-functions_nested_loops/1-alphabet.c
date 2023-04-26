@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_alphabet - Print alphabets using _purchar
+ * main - Print alphabets using _purchar
  * Return: Always 0 (success)
  */
-void print_alphabet(void)
+int main(void)
 {
 	int n;
 
@@ -14,4 +14,3 @@ void print_alphabet(void)
 	_putchar('\n');
 	return (0);
 }
-
