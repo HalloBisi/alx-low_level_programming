@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * Description: 'Print alphabets using _purchar'
- * Retun: Always 0 (success)
+ * print_alphabet - Print alphabets using _purchar
+ * Return: Always 0 (success)
  */
-void print(void)
+void print_alphabet(void)
 {
 	int n;
 
-	    for (n = 97; n <= 122; n++)
-	    {
-		    _putchar(n);
-	   }
+	for (n = 97; n <= 122; n++)
+	{
+		_putchar(n);
+	}
 	_putchar('\n');
+	return (0);
 }
 
