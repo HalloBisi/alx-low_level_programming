@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - Print alphabets using _purchar
+ * print_alphabet - Print alphabets using _purchar
+ *
  * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int n;
 
