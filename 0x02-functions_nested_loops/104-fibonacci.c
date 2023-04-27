@@ -32,7 +32,7 @@ int main(void)
 
 	for (a = 92; a < 99; ++a)
 	{
-		printf(", %lu", aft1 + (aft2 / 1));
+		printf(", %lu", aft1 + (aft2 / l));
 		printf("%lu", aft2 % 1);
 		aft1 = aft1 + bef1;
 		bef1 = aft1 - bef1;
