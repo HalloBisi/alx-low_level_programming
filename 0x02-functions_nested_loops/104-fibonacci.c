@@ -25,10 +25,10 @@ int main(void)
 		aft += bef;
 		bef = aft - bef;
 	}
-	bef1 = (bef / 1);
-	bef2 = (bef % 1);
-	aft1 = (aft / 1);
-	aft2 = (aft % 2);
+	bef1 = (bef / l);
+	bef2 = (bef % l);
+	aft1 = (aft / l);
+	aft2 = (aft % l);
 
 	for (a = 92; a < 99; ++a)
 	{
@@ -41,4 +41,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}
+
