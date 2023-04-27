@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	unsigned long int n, k, next, sum;
+	unsigned long int n, m, next, sum;
 
 	n = 1;
 	m = 2;
@@ -17,7 +17,7 @@ int main(void)
 
 	for (n = 1; n <= 33; ++n)
 	{
-		if (m < 4000000 && (j % 2) == 0)
+		if (m < 4000000 && (m % 2) == 0)
 		{
 			sum = sum + m;
 		}
