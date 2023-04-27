@@ -9,10 +9,10 @@
 int main(void)
 {
 	int n;
-	unsigned long int n, m, next, sum;
+	unsigned long int m, o, next, sum;
 
-	n = 1;
-	m = 2;
+	m = 1;
+	o = 2;
 	sum = 0;
 
 	for (n = 1; n <= 33; ++n)
