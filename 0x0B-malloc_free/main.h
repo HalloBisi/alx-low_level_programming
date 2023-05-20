@@ -1,3 +1,4 @@
+char **strtow(char *str);
 char *argstostr(int ac, char **av);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
